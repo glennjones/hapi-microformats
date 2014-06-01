@@ -1,0 +1,40 @@
+{
+  "name": "hapi-microformats",
+  "author": "Glenn Jones",
+  "version": "0.0.1",
+  "description": "This is a wrap HAPI of microformat-node project",
+  "keywords": [
+    "hapi",
+    "microformat",
+    "h-entry",
+    "h-card",
+    "indieweb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/glennjones/hapi-microformats.git"
+  },
+  "main": "bin/hapi-microformats.js",
+  "scripts": {
+    "test": "make test",
+    "start": "bin/hapi-microformats.js"
+  },
+  "dependencies": {
+    "hapi": "4.x",
+    "joi": "3.x",
+    "handlebars": "1.3.x",
+    "hapi-swagger": "https://api.github.com/repos/glennjones/hapi-swagger/tarball/master",
+    "microformat-node": "https://api.github.com/repos/glennjones/microformat-node/tarball/master",
+    "marked": "0.3.x"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-jshint": "0.1.1",
+    "grunt-mocha-test": "0.4.0",
+    "mocha": "1.10.0",
+    "chai": "1.6.0"
+  },
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}
