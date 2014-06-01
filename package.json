@@ -1,7 +1,7 @@
 {
   "name": "hapi-microformats",
   "author": "Glenn Jones",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a wrap HAPI of microformat-node project",
   "keywords": [
     "hapi",
@@ -14,10 +14,9 @@
     "type": "git",
     "url": "http://github.com/glennjones/hapi-microformats.git"
   },
-  "main": "bin/hapi-microformats.js",
+  "main": "lib/interface.js",
   "scripts": {
-    "test": "make test",
-    "start": "bin/hapi-microformats.js"
+    "test": "make test"
   },
   "dependencies": {
     "hapi": "4.x",
