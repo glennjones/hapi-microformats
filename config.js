@@ -6,7 +6,7 @@ module.exports = {
         "development": {
             "server": {
                 "host": "localhost",
-                "port": 3007,
+                "port": 3005,
             },            
             "proxy" : {
               "port": 3001,

@@ -1,7 +1,7 @@
 {
   "name": "hapi-microformats",
   "author": "Glenn Jones",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is a wrap HAPI of microformat-node project",
   "keywords": [
     "hapi",
